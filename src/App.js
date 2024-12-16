@@ -1,13 +1,14 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="app">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          I was changed!
         </p>
         <a
           className="App-link"
@@ -20,6 +21,6 @@ function App() {
       </header>
     </div>
   );
-}
+};
 
 export default App;
