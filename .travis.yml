@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t vgrygor/docker-react -f Dockerfile.dev .
+  - docker build -t vhryhor/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true vgrygor/docker-react npm run test
+  - docker run -e CI=true vhryhor/docker-react npm run test
